@@ -14,6 +14,10 @@
 		C77F02E52AE2A41C001CA45C /* MoviesOnCarouselSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77F02E42AE2A41C001CA45C /* MoviesOnCarouselSwiftUITests.swift */; };
 		C77F02EF2AE2A41C001CA45C /* MoviesOnCarouselSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77F02EE2AE2A41C001CA45C /* MoviesOnCarouselSwiftUIUITests.swift */; };
 		C77F02F12AE2A41C001CA45C /* MoviesOnCarouselSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77F02F02AE2A41C001CA45C /* MoviesOnCarouselSwiftUIUITestsLaunchTests.swift */; };
+		C77F02FF2AE2A48B001CA45C /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77F02FE2AE2A48B001CA45C /* Movie.swift */; };
+		C77F03022AE2A65D001CA45C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77F03012AE2A65D001CA45C /* HomeView.swift */; };
+		C77F03042AE2AE44001CA45C /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77F03032AE2AE44001CA45C /* Tab.swift */; };
+		C77F03062AE2B3BF001CA45C /* CustomCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77F03052AE2B3BF001CA45C /* CustomCarouselView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		C77F02EA2AE2A41C001CA45C /* MoviesOnCarouselSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviesOnCarouselSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C77F02EE2AE2A41C001CA45C /* MoviesOnCarouselSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesOnCarouselSwiftUIUITests.swift; sourceTree = "<group>"; };
 		C77F02F02AE2A41C001CA45C /* MoviesOnCarouselSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesOnCarouselSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C77F02FE2AE2A48B001CA45C /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		C77F03012AE2A65D001CA45C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C77F03032AE2AE44001CA45C /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		C77F03052AE2B3BF001CA45C /* CustomCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCarouselView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +102,10 @@
 		C77F02D22AE2A41A001CA45C /* MoviesOnCarouselSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				C77F02D32AE2A41A001CA45C /* MoviesOnCarouselSwiftUIApp.swift */,
+				C77F03002AE2A643001CA45C /* View */,
+				C77F02FD2AE2A454001CA45C /* Model */,
 				C77F02D52AE2A41A001CA45C /* ContentView.swift */,
+				C77F02D32AE2A41A001CA45C /* MoviesOnCarouselSwiftUIApp.swift */,
 				C77F02D72AE2A41C001CA45C /* Assets.xcassets */,
 				C77F02D92AE2A41C001CA45C /* Preview Content */,
 			);
@@ -125,6 +135,24 @@
 				C77F02F02AE2A41C001CA45C /* MoviesOnCarouselSwiftUIUITestsLaunchTests.swift */,
 			);
 			path = MoviesOnCarouselSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		C77F02FD2AE2A454001CA45C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C77F03032AE2AE44001CA45C /* Tab.swift */,
+				C77F02FE2AE2A48B001CA45C /* Movie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C77F03002AE2A643001CA45C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C77F03012AE2A65D001CA45C /* HomeView.swift */,
+				C77F03052AE2B3BF001CA45C /* CustomCarouselView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +286,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C77F02D62AE2A41A001CA45C /* ContentView.swift in Sources */,
+				C77F03022AE2A65D001CA45C /* HomeView.swift in Sources */,
+				C77F03042AE2AE44001CA45C /* Tab.swift in Sources */,
 				C77F02D42AE2A41A001CA45C /* MoviesOnCarouselSwiftUIApp.swift in Sources */,
+				C77F02FF2AE2A48B001CA45C /* Movie.swift in Sources */,
+				C77F03062AE2B3BF001CA45C /* CustomCarouselView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
